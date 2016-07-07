@@ -56,7 +56,7 @@ public Action Timer_CheckView(Handle timer)
 			
 			if(GetClientTeam(Target) == GetClientTeam(client))
 			{
-				PrintHintText(client,"<font size='30'>Player</font>  <font size='30' color='#00FF00'>%N</font>                                    <font size='30'>HP:</font>  <font size='30' color='#FF0000'>%i</font>", Target, TargetHP);
+				PrintHintText(client,"<font face='Arial' size='26'>Player</font>  <font size='28' color='#00FF00'>%N</font> \n<font face='Arial' size='26'>HP:</font>  <font size='28' color='#FF0000'>%i</font>", Target, TargetHP);
 			}
 		}
 	}
